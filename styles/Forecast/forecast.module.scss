@@ -1,0 +1,12 @@
+.bg {
+    background-color: #7e7e7e;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.10) 100%);
+    backdrop-filter: blur(5px);
+    @apply border rounded-[30px] border-gray-700 p-[16px];
+}
